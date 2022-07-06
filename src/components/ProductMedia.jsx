@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import ReactImageMagnify from 'react-image-magnify'
 
 import './SliderProduct.css'
 
@@ -20,19 +19,7 @@ const ProductMedia = (props) => {
       </div>
       <div className='container-image-zoom'>
           
-          <ReactImageMagnify style={{zIndex:20}} className='image-product'  {...{
-                smallImage: {
-                    alt: 'Wristwatch by Ted Baker London',
-                    isFluidWidth: true,
-                    src: productActive
-                },
-                largeImage: {
-                    src: productActive,
-                    width: 1000,
-                    height: 1000
-                },
-
-            }} />
+          
       </div>
     </div>
   )
