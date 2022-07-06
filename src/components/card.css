@@ -1,0 +1,17 @@
+.card{
+    padding: 1.5rem;
+    border: 1px solid #C2C2C2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    width: 100%;
+}
+
+.card h2 {
+    color: #363636;
+}
+
+.card p{
+    color: #535353;
+}

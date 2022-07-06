@@ -1,0 +1,26 @@
+.container-quantity {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.controller-quantity {
+    color: rgb(133, 133, 133);
+    background-color: transparent;
+    padding: 0.5rem 1.2rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    border: none;
+    transition: all 0.2s;
+
+}
+
+.quantity {
+    color: #252525;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.controller-quantity:active {
+    background-color: rgb(255, 255, 255);
+}

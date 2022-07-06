@@ -1,0 +1,24 @@
+.container-search-results {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.filters {
+
+    padding: 1.5rem;
+}
+
+.filter-title {
+    font-size: 2rem;
+    color: rgb(54, 54, 54);
+}
+
+.products-search {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 1rem;
+    padding: 1.5rem;
+}

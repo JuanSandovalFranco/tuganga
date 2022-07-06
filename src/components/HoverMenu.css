@@ -1,0 +1,45 @@
+.nav__menu {
+    cursor: pointer;
+
+}
+
+.nav__menu:hover .dropdown {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.nav__menu:active .dropdown {
+    display: block;
+}
+
+
+.dropdown ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dropdown ul li {
+    font-size: 1.2rem;
+    display: flex;
+}
+
+.dropdown ul li a {
+    width: 100%;
+    color: rgb(100, 100, 100);
+    padding: 1rem;
+    text-align: left;
+    transition: all 0.2s;
+    text-transform: capitalize;
+    display: flex;
+    gap: 1rem;
+
+
+}
+
+.dropdown ul li a:hover {
+    color: rgb(51, 51, 51);
+    background: #ececec;
+}

@@ -1,0 +1,25 @@
+
+.container-featured{
+    margin: 0 auto;
+    width: 90%;
+    padding: 1rem;
+}
+
+.featured-products{
+    margin: 2rem auto;
+    height: 400px;
+}
+
+.trend-title{
+    font-size: 2rem;
+    color: rgb(90, 90, 90);
+    margin-top: 2rem;
+
+}
+
+
+
+.swiper-slide img{
+    width: 100%;
+    object-fit: contain;
+}

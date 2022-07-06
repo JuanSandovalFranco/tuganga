@@ -1,0 +1,52 @@
+
+.container-login{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.container-login .form{
+    margin: auto;
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.title-login{
+    margin-top: 1.5rem;
+    color:rgb(41, 41, 41);
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+.text-greeting{
+    color:rgb(41, 41, 41);
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.text-login{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(71, 71, 71);
+}
+
+.forgot-password-text{
+    color: rgb(38, 89, 255);
+    text-align: end;
+    font-weight:bolder;
+}
+
+.sign-up{
+    color: rgb(41, 41, 41);
+    font-weight:500;
+}
+
+.link-sign-up{
+    color: rgb(59, 59, 255);
+    font-weight:bolder;
+}

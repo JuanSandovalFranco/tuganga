@@ -1,0 +1,92 @@
+.product-slider {
+    height: 100%;
+}
+
+
+
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    color: grey;
+    padding: 1rem 2rem;
+    border-radius: 50%;
+
+}
+
+
+
+.product-card {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 0;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.2s;
+}
+
+.data-description {
+
+    width: 100%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: start;
+
+}
+
+.search-product-title {
+    font-size: 1.2rem;
+    color: rgb(54, 54, 54);
+
+}
+
+
+.container-price {
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+
+}
+
+
+.container-price .product-price {
+    font-size: 1.4rem;
+    color: rgb(54, 54, 54);
+}
+
+.container-price .product-offer {
+    color: rgb(172, 172, 172);
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+
+.description {
+    font-size: 1rem;
+}
+
+
+.cont-review {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.percentaje-offer {
+    color: #23D814;
+
+}
+
+
+
+.product-card:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+
+}

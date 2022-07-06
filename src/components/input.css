@@ -1,0 +1,33 @@
+.container-input{
+    width: 100%;
+    position: relative;
+    
+}
+
+.container-input .input{
+    width: 100%;
+    padding: 1.5rem 4rem;
+    border:1px solid #B9B9B9;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #383838;
+    outline: none;
+}
+
+.input:focus{
+    border:2px solid rgb(37, 95, 255);
+}
+
+
+.icon-input{
+    color: #5F5F5F;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 25%;
+    left:1rem;
+    
+}
+
+.border-wrong{
+    border-color: #FF5454;
+}

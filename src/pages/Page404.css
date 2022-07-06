@@ -1,0 +1,37 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container-error{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 90%;
+    height: 100vh;
+}
+
+.image-error{
+    width: 90%;
+    height: 80%;
+}
+
+.box-info-found{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    
+}
+
+
+.box-info-found .info-found{
+    font-size: 4rem;
+    color: rgb(44, 44, 44);
+    
+}
+
+.box-info-found .description-error{
+    font-size: 1.5rem;
+    color: rgb(156, 156, 156);
+
+}
